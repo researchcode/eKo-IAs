@@ -498,6 +498,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					const classPrediction =
 					prediction[i].className + ": " + prediction[i].probability.toFixed(2);
 				labelContainer.childNodes[i].innerHTML = classPrediction;	
+				}else{
+					labelContainer.childNodes[i].innerHTML = "";
 				}
 				/*const classPrediction =
 					prediction[i].className + ": " + prediction[i].probability.toFixed(2);
